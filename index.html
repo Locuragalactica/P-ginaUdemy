@@ -29,16 +29,16 @@
             </h2>
           </div>
           <div class="links">
-            <a href="#" class="link">Inicio</a>
-            <a href="#" class="link">Servicios</a>
-            <a href="#" class="link">Proyectos</a>
-            <a href="#" class="link">Clientes</a>
-            <a href="#" class="link link--active">Contacto</a>
+            <a href="#inicio" class="link">Inicio</a>
+            <a href="#servicios" class="link">Servicios</a>
+            <a href="#proyectos" class="link">Proyectos</a>
+            <a href="#clientes" class="link">Clientes</a>
+            <a href="#contacto" class="link link--active">Contacto</a>
           </div>
         </div>
       </nav>
       <section class="container hero__main">
-        <div class="hero__textos">
+        <div id="inicio" class="hero__textos">
           <h1 class="title">
             La mejor
             <span class="title--active">
@@ -58,7 +58,7 @@
     <main>
       <section class="services">
         <div class="container">
-          <h2 class="subtitle">
+          <h2 class="subtitle" id="servicios">
             Nuestros servicios <span class="point">.</span>
           </h2>
 
@@ -119,7 +119,7 @@
       </section>
 
       <section class="projects container">
-        <h2 class="subtitle">
+        <h2 class="subtitle" id="proyectos">
           Proyectos recientes <span class="point">.</span>
         </h2>
         <p class="copy__section">
@@ -179,7 +179,7 @@
 
       <section class="testimony">
         <div class="container">
-          <h2 class="subtitle">
+          <h2 class="subtitle" id="clientes">
             Clientes Satisfechos<span class="point">.</span>
           </h2>
           <p class="copy__section">Cientos de empresas confian en nosotros</p>
@@ -250,11 +250,11 @@
             >.</span
           >
         </h2>
-        <p class="copy__section copy__section--modifier">
+        <!-- <p class="copy__section copy__section--modifier">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
           officiis dolor modi nemo quos sit quo beatae repudiandae explicabo?
           Dicta?
-        </p>
+        </p> -->
 
         <div class="check">
           <div class="check__item">
@@ -295,14 +295,10 @@
     </main>
 
     <footer class="footer">
-
       <div class="container footer__caption">
-
         <section class="download">
           <h3 class="title__footer">Descarga Nuestra App</h3>
           <div class="download__app">
-
-
             <div class="download__item">
               <i class="bx bxl-play-store download__logo"></i>
               <h4 class="download__title">Play Store</h4>
@@ -327,7 +323,7 @@
         </section>
 
         <section class="get-email">
-          <h3 class="title__footer">
+          <h3 class="title__footer" id="contacto">
             ¿Estas listo para trabajar con nosotros?
           </h3>
           <form class="newsletter newsletter--modifier">
